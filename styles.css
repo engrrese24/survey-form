@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(
+      115deg,
+      rgba(0,0,255,0.4),
+      rgba(0,0,255,0.3)
+    ),url(https://4.bp.blogspot.com/_efx8m6TXg7A/TKzIYxJqTAI/AAAAAAAAAX8/CvmGm6T6DgU/s1600/PC_circuit_wallpaper_by_xmener.png);
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+h1+p{
+  margin-top:0;
+}
+
+form{
+  background-color:rgb(0,71,171);
+  box-shadow: 0px -1px 10px 5px blue;
+  border-radius: 2px;
+  padding: 30px 20px;
+  max-width: 450px;
+  margin: 40px auto;
+}
+
+.form-content{
+  text-align: left;
+}
+
+.form-content label{
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-content input,
+.form-content select,
+.form-content textarea{
+  border: 3px solid #2222;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+}
+
+.form-content input[type="radio"],
+.form-content input[type="checkbox"]
+{
+  display: inline-block;
+  width: auto;
+}
+
+button{
+  background-color: #00308F; 
+  margin-top: 10px;
+  color: white;
+  border: white;
+  border-radius: 10px;
+  display: block;
+  padding: 10px;
+  width: 100%;
+}
+
+footer{
+  margin-top: 15px ;
+  
+}
